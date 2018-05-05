@@ -27,8 +27,8 @@ export default class NewLocation extends Component {
       <div className="form-modal" onClick={this.handleClick}>
         <div className="container">
           <div className="form-wrapper">
-            <input type="text" id="new-location-name" placeholder="LOCATION TITLE" onKeyPress={this.handleEnterKey} />
-            <input type="text" id="new-location-coords" placeholder="LOCATION COORDINATES" onKeyPress={this.handleEnterKey} />            
+            <input type="text" id="new-location-name" placeholder="TITLE" onKeyPress={this.handleEnterKey} />
+            <input type="text" id="new-location-coords" placeholder="COORDINATES" onKeyPress={this.handleEnterKey} />            
             <button id="new-location-save" onClick={this.handleNewLocationClick}>Save COORDS</button>
             <span className="modal-close">X</span>
           </div>

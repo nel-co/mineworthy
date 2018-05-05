@@ -27,7 +27,7 @@ export default class NewWorld extends Component {
       <div className="form-modal" onClick={this.handleClick}>
         <div className="container">
           <div className="form-wrapper">
-            <input type="text" id="new-world-name" placeholder="ENTER WORLD NAME" onKeyPress={this.handleEnterKey} />
+            <input type="text" id="new-world-name" placeholder="WORLD NAME" onKeyPress={this.handleEnterKey} />
             <button id="new-world-save" onClick={this.handleNewWorldClick}>Save World</button>
             <span className="modal-close">X</span>
           </div>
