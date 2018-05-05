@@ -1,0 +1,96 @@
+.form-modal {
+  width: 100%;
+  height: 100%;
+  animation: modalPopUp .2s ease forwards;
+}
+
+@keyframes modalPopUp {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.form-modal .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, .2);
+  width: 100%;
+  padding: 60px 30px;
+  border: var(--border-size) solid var(--grey-border);
+  position: relative;
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.form-wrapper input {
+  width: 100%;
+  text-align: center;
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: var(--border-size) solid #ffffff;
+  padding: 10px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+
+::-moz-placeholder {
+  opacity: 1;
+}
+
+.form-wrapper input::placeholder {
+  color: #ffffff;
+}
+
+.form-wrapper input::-ms-placeholder {
+  color: #ffffff;  
+}
+
+.form-wrapper input::-webkit-input-placeholder {
+  color: #ffffff;  
+}
+
+.form-wrapper input::-moz-placeholder {
+  color: #ffffff;  
+}
+
+.form-wrapper input:-moz-placeholder {
+  color: #ffffff;  
+}
+
+
+.form-wrapper button {
+  width: 100%;
+  padding: 25px 0px;
+  cursor: pointer;
+  outline: none;
+  background: var(--green);
+  border: var(--border-size) solid #6b8a41;
+  color: #4e6530;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;  
+}

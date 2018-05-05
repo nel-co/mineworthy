@@ -1,0 +1,5 @@
+@font-face {
+  font-family: "Uni-53";
+  src: url("./uni0553-webfont.ttf") format("truetype"),
+       url("./uni0553-webfont.woff") format("woff");
+}

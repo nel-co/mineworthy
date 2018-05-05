@@ -1,0 +1,50 @@
+@import './normalize.css';
+@import './fonts/fonts.css';
+
+:root {
+  --orange: #ee3706;
+  --yellow: #faee2e;
+  --green: #9dc862;
+  --blue: #10c0a7;
+  --pink: #c01088;
+  --grey-border: #6b6c6a;
+  --grey-button: #d0d0d0;
+  --button-text: #3c3939;
+  --main-text: #b6b6b6;
+  --black: #0f0f0f;
+  --border-size: 3px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Uni-53', monospace;
+  height: 100vh;
+  width: 100vw;
+  background: url('../img/pixels.png');
+  background-position: center;
+  background-size: contain;
+  color: var(--main-text);
+  text-transform: uppercase;  
+}
+
+#app {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1110px;
+  padding-bottom: 30px;
+}
+
+::selection {
+  background: var(--green); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: var(--green); /* Gecko Browsers */
+}

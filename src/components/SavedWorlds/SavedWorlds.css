@@ -1,0 +1,25 @@
+.saved-worlds .logo-block {
+  max-width: 250px;
+  margin: 0 auto;
+  padding: 30px 0px;
+}
+
+.saved-worlds-list .saved-world {
+  padding: 25px 0px;
+  cursor: pointer;
+  outline: none;
+  background: var(--grey-button);
+  border: var(--border-size) solid var(--grey-border);
+  color: var(--button-text);
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.saved-worlds-list .saved-world:hover {
+  border-color: var(--main-text);
+}
